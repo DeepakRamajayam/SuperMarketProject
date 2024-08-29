@@ -1,0 +1,71 @@
+.customers-page {
+    padding: 2rem;
+    padding-top: 100px;
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #F0F8FF; /* Alice Blue */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 25px; /* Adjust based on header height */
+}
+
+h2 {
+    color: #4682B4; /* Steel Blue */
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.customer-list {
+    margin-top: 2rem;
+}
+
+.customer-list h3 {
+    color: #4682B4;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.customer-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.customer-list li {
+    background-color: #fff;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.customer-details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.customer-details p {
+    margin: 0.4em;; /* Remove default margin */
+}
+
+.remove-button {
+    background-color: #ff4d4d; /* Red for remove button */
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background-color: #e60000; /* Darker red for hover effect */
+}
+
+

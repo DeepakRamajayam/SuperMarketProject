@@ -1,0 +1,91 @@
+/* Header styles */
+header {
+    background-color: #003c71; /* Dark blue background */
+    color: #fff;
+    padding: 1rem 1rem; /* Adjust padding for spacing */
+    display: flex;
+    align-items: center;
+    position: fixed; /* Fixed position */
+    top: 0;
+    left: 0; /* Ensure it starts at the left edge */
+    width: calc(100% - 250px); /* Adjust width based on sidebar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1001; /* Ensure it is above the sidebar */
+    transition: width 0.3s ease, left 0.3s ease; /* Smooth transition for width and left position */
+}
+
+/* When the sidebar is open */
+.sidebar.open ~ header {
+    width: calc(100% - 250px); /* Adjust width based on sidebar */
+    left: 250px; /* Offset by sidebar width */
+}
+
+/* When the sidebar is closed */
+.sidebar.closed ~ header {
+    width: 100%; /* Full width when sidebar is closed */
+    left: 0; /* Reset the left offset */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 1.75rem; /* Adjusted font size for prominence */
+    font-weight: bold;
+    color: #fff;
+    margin-left: 100px; /* Adjust as needed */
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0.5rem;
+}
+
+.nav-links a:hover {
+    color: aqua;
+}
+
+.auth-buttons {
+    display: flex;
+    padding-right: 10px;
+    margin-right: 20px;
+    gap: 1rem;
+}
+
+.button {
+    background-color: #f5a623; /* Orange color for buttons */
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-size: 0.875rem;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+.bb {
+    background-color: #f5a623; /* Orange color for buttons */
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-size: 0.875rem;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+.button:hover {
+    background-color: #d98b3f; /* Darker orange for hover effect */
+}

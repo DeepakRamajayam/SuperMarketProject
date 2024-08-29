@@ -1,0 +1,151 @@
+.inventory-page {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #F0F8FF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 100px; /* Adjust based on header height */
+}
+
+h2 {
+    color: #4682B4;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.barcode-search {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.barcode-search input {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.product-list {
+    margin-top: 2rem;
+}
+
+.product-list h3 {
+    color: #4682B4;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.product-item {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.product-item p {
+    margin: 0.5rem 0;
+}
+
+.product-details {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.product-details h3 {
+    color: #4682B4;
+}
+
+.product-details p {
+    margin: 0.5rem 0;
+}
+
+.product-details strong {
+    color: #333;
+}
+
+.add-product-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-product-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.manage-suppliers-button {
+    background-color: #4682B4; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.manage-suppliers-button:hover {
+    background-color: #4178A4; /* Darker blue */
+}
+
+.add-product-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.add-product-form input,
+.add-product-form select {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.add-product-form .submit-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-product-form .submit-button:hover {
+    background-color: #45a049; /* Darker green */
+}

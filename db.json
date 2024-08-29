@@ -1,0 +1,109 @@
+{
+  "users": [
+    {
+      "id": "3aa1",
+      "username": "deep",
+      "email": "deep@123",
+      "password": "123",
+      "visitCount": 2
+    },
+    {
+      "id": "2eb6",
+      "username": "g",
+      "email": "g@gmail.com",
+      "password": "5614287"
+    },
+    {
+      "id": "9e84",
+      "username": "dev",
+      "email": "dev@123",
+      "password": "0000"
+    },
+    {
+      "id": "2dbf",
+      "username": "slak",
+      "email": "slak@ghnm",
+      "password": "1234"
+    },
+    {
+      "id": "9521",
+      "username": "amirth",
+      "email": "amrith@gamil",
+      "password": "1234"
+    }
+  ],
+  "admins": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "adminpass"
+    }
+  ],
+  "products": [
+    {
+      "barcode": "123",
+      "productName": "APPLE",
+      "productPrice": 10,
+      "currentStock": 150,
+      "supplierId": "56311",
+      "id": "038a"
+    },
+    {
+      "barcode": "12345",
+      "productName": "MANGO",
+      "productPrice": 15,
+      "currentStock": 85,
+      "supplierId": "56311",
+      "id": "c396"
+    },
+    {
+      "barcode": "01234",
+      "productName": "ToothPaste",
+      "productPrice": 5,
+      "currentStock": 200,
+      "supplierId": null,
+      "id": "3803"
+    },
+    {
+      "id": "3bf4",
+      "barcode": "567",
+      "productName": "MILK",
+      "productPrice": "5",
+      "currentStock": "100",
+      "supplierId": null
+    }
+  ],
+  "suppliers": [
+    {
+      "id": "56311",
+      "supplierName": "Supplier Two",
+      "Contact": "986793219",
+      "Address": "119, cosmo colony ,605430",
+      "Email": "abc@gmail.com"
+    },
+    {
+      "id": "367d",
+      "supplierName": "slaks",
+      "Contact": "759417809",
+      "Address": "67,krishna, 609843",
+      "Email": "hjggf@gmail"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": "31,jhsgdfy,632789",
+      "position": "Manager",
+      "salary": ""
+    },
+    {
+      "id": "c5d6",
+      "name": "dev",
+      "email": "g@gmail",
+      "address": "g street",
+      "position": "Developer"
+    }
+  ]
+}
